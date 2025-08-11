@@ -207,3 +207,14 @@ cat two.txt
 clear
 terraform -version
 clear
+==== 2025-08-11_15-45-01 ====
+git clone git@github.com:karthik-krishnan-1395/syslogs.git
+cd syslogs
+vi main.sh
+chmod +x main.sh
+vi main.sh
+crontab -e
+./main.sh
+crontab -e
+vi main.sh
+crontab -e
