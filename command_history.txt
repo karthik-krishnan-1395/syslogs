@@ -757,3 +757,14 @@ rm terraform.tfstate.backup
 ls
 cd syslogs
 vi main.sh
+==== 2025-08-12_09-15-01 ====
+crontab -e
+vi main.sh
+crontab -e
+ls
+rm main.tf
+rm terraform.tfstate
+rm terraform.tfstate.backup
+ls
+cd syslogs
+vi main.sh
