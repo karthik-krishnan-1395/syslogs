@@ -869,3 +869,16 @@ MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7258.1 avail Mem
       2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
       6 root      20   0    3104   1792   1792 S   0.0   0.0   0:00.03 init
 
+==== 2025-08-12_09-05-01 ====
+CPU and RAM usage:
+top - 09:05:02 up  3:47,  1 user,  load average: 0.00, 0.00, 0.00
+Tasks:  32 total,   1 running,  31 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.1 sy,  0.0 ni, 98.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7792.2 total,   6729.8 free,    540.8 used,    680.9 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   7251.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0   21748  12088   9144 S   0.0   0.2   0:08.10 systemd
+      2 root      20   0    3060   1664   1664 S   0.0   0.0   0:00.00 init-sy+
+      6 root      20   0    3104   1792   1792 S   0.0   0.0   0:00.03 init
+
