@@ -1153,3 +1153,14 @@ clear
 ssh ec2-user@56.228.13.161
 clear
 ssh -i ~/.ssh/kar_aws.pem ec2-user@51.21.128.180
+==== 2025-08-12_12-05-01 ====
+ssh ec2-user@51.20.182.39
+clear
+scp -i ~/.ssh/kar_aws.pem two.txt ec2-user@ec2-51-20-182-39.eu-north-1.compute.amazonaws.com:/home/ec2-user
+ssh ec2-user@51.20.182.39
+clear
+vi one.txt
+clear
+ssh ec2-user@56.228.13.161
+clear
+ssh -i ~/.ssh/kar_aws.pem ec2-user@51.21.128.180
