@@ -2429,3 +2429,14 @@ ssh -i ~/.ssh/kar_aws.pem ec2-user@51.21.128.180
 ssh -i ~/.ssh/kar_aws.pem ec2-user@13.51.178.52
 ssh -i ~/.ssh/kar_aws.pem ec2-user@13.62.52.225
 ssh -i ~/.ssh/kar_aws.pem ec2-user@51.21.1.157
+==== 2025-08-14_06-55-01 ====
+ssh ec2-user@51.20.182.39
+clear
+vi one.txt
+clear
+ssh ec2-user@56.228.13.161
+clear
+ssh -i ~/.ssh/kar_aws.pem ec2-user@51.21.128.180
+ssh -i ~/.ssh/kar_aws.pem ec2-user@13.51.178.52
+ssh -i ~/.ssh/kar_aws.pem ec2-user@13.62.52.225
+ssh -i ~/.ssh/kar_aws.pem ec2-user@51.21.1.157
