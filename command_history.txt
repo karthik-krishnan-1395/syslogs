@@ -3705,3 +3705,14 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io
 docker run hello-world
 sudo usermod -aG docker $USER
 newgrp docker
+==== 2025-08-22_10-20-01 ====
+sudo systemctl stop docker.socket
+sudo systemctl status docker
+sudo systemctl status docker.socket
+sudo systemctl disable docker
+sudo systemctl disable docker.socket
+docker build -t karth08/hapi-fhir-server:latest .
+minikube stop
+minikube delete
+docker logout
+docker info
