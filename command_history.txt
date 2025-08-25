@@ -4596,3 +4596,14 @@ docker info
 docker run hello-world
 docker ps
 docker ps -a
+==== 2025-08-25_12-55-01 ====
+docker info
+docker version
+sudo systemctl start docker
+sudo systemctl status docker
+sudo docker version
+docker version
+docker info
+docker run hello-world
+docker ps
+docker ps -a
