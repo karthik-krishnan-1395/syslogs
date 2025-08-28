@@ -5190,3 +5190,14 @@ minikube status
 clear
 code hi.txt
 ls
+==== 2025-08-28_10-15-01 ====
+minikube status
+cd ..
+rm -rf hapi-fhir-deployment-server
+clear
+ls
+rm docker-compose.yaml
+minikube status
+clear
+code hi.txt
+ls
