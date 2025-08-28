@@ -4651,3 +4651,14 @@ docker info
 docker run hello-world
 docker ps
 docker ps -a
+==== 2025-08-28_06-10-01 ====
+minikube status
+cd ..
+rm -rf hapi-fhir-deployment-server
+clear
+ls
+rm docker-compose.yaml
+minikube status
+clear
+code hi.txt
+ls
