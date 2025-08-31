@@ -7876,3 +7876,16 @@ MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   6987.0 avail Mem
    3528 root      20   0   18400  11136   8192 S  20.0   0.1   0:00.24 systemd
    3611 root      20   0 1745440   4352   3328 S  10.0   0.1   0:00.06 docker-+
 
+==== 2025-08-31_15-10-01 ====
+CPU and RAM usage:
+top - 15:10:01 up 36 min,  1 user,  load average: 0.21, 0.24, 0.11
+Tasks:  91 total,   1 running,  90 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.2 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   7792.2 total,   1597.7 free,   1524.9 used,   4918.7 buff/cache     
+MiB Swap:   2048.0 total,   2048.0 free,      0.0 used.   6267.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6277 root      20   0 1460248 256128  78080 S  10.0   3.2   0:12.98 kube-ap+
+   7338 root      20   0  736752  29168  20992 S  10.0   0.4   0:00.43 storage+
+      1 root      20   0   22376  12764   9308 S   0.0   0.2   0:01.90 systemd
+
