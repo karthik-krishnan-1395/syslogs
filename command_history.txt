@@ -6686,3 +6686,14 @@ docker info
 docker ps
 docker ps -a
 docker images
+==== 2025-08-31_15-20-24 ====
+clear
+code hi.txt
+ls
+ssh -i kar_aws.pem ec2-user@16.170.235.231
+ls
+ssh -i ~/.ssh/kar_aws.pem ec2-user@16.170.235.231
+docker info
+docker ps
+docker ps -a
+docker images
