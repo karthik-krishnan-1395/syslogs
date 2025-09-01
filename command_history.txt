@@ -6774,3 +6774,14 @@ docker info
 docker ps
 docker ps -a
 docker images
+==== 2025-09-01_05-45-01 ====
+docker pull karth08/hapi-fhir-deployment-server:latest
+docker login
+kubectl get pods
+minikube ip
+kubectl get svc
+minikube ip
+minikube service hapi-fhir-service
+minikube stop
+minikube delete
+cd ..
