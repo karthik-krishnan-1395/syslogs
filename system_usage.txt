@@ -8279,3 +8279,16 @@ MiB Swap:   2048.0 total,   2047.7 free,      0.3 used.   5513.1 avail Mem
    5840 root      20   0 1527524 287688  80256 S  10.0   3.6   3:52.91 kube-ap+
    6476 65532     20   0 1294872  59952  46080 S  10.0   0.8   0:12.06 coredns
 
+==== 2025-09-01_07-25-01 ====
+CPU and RAM usage:
+top - 07:25:01 up  1:45,  1 user,  load average: 0.16, 0.22, 0.19
+Tasks:  90 total,   1 running,  89 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.1 sy,  0.0 ni, 97.7 id,  0.0 wa,  0.0 hi,  1.1 si,  0.0 st 
+MiB Mem :   7792.2 total,   2716.7 free,   2283.9 used,   3047.5 buff/cache     
+MiB Swap:   2048.0 total,   2047.7 free,      0.3 used.   5508.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   5848 root      20   0   11.2g  55928  23168 S   9.1   0.7   2:24.07 etcd
+  26426 karthik   20   0   10560   6016   3968 R   9.1   0.1   0:00.01 top
+      1 root      20   0   21832  12240   9296 S   0.0   0.2   0:03.72 systemd
+
