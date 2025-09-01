@@ -7423,3 +7423,14 @@ minikube service hapi-fhir-service
 minikube stop
 minikube delete
 cd ..
+==== 2025-09-01_12-20-01 ====
+docker pull karth08/hapi-fhir-deployment-server:latest
+docker login
+kubectl get pods
+minikube ip
+kubectl get svc
+minikube ip
+minikube service hapi-fhir-service
+minikube stop
+minikube delete
+cd ..
