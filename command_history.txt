@@ -7665,3 +7665,14 @@ kubectl get pods
 kubectl port-forward service/hapi-fhir-service 8080:80
 cd ..
 clear
+==== 2025-09-05_07-50-00 ====
+vi deployment.yaml
+minikube start
+docker login
+kubectl apply -f deployment.yaml
+kubectl get pods
+kubectl get svc
+kubectl get pods
+kubectl port-forward service/hapi-fhir-service 8080:80
+cd ..
+clear
