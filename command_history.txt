@@ -8413,3 +8413,14 @@ kubectl get pods
 kubectl port-forward service/hapi-fhir-service 8080:80
 cd ..
 clear
+==== 2025-09-15_05-35-01 ====
+git push origin karthik
+cd s3-action
+code main.tf 
+rm main.tf
+ls
+code main.tf
+cd ..
+git add .
+git commit -m "Creating GitHub Action"
+git push origin karthik
