@@ -9095,3 +9095,14 @@ chmod 777 ~/.ssh
 ssh -i ~/.ssh/test-instance.pem ubuntu@18.170.2.155
 chmod 400 ~/.ssh/test-instance.pem
 ssh -i ~/.ssh/test-instance.pem ubuntu@18.170.2.155
+==== 2025-09-15_11-50-01 ====
+ssh -i ~/.ssh/test-instance.pem ubuntu@13.42.35.11
+clear
+ssh -i ~/.ssh/kar_aws.pem ec2-user@13.60.35.160
+ssh -i ~/.ssh/kar_aws.pem ubuntu@13.60.35.160
+clear
+ssh -i ~/.ssh/test-instance.pem ubuntu@18.170.2.155
+chmod 777 ~/.ssh
+ssh -i ~/.ssh/test-instance.pem ubuntu@18.170.2.155
+chmod 400 ~/.ssh/test-instance.pem
+ssh -i ~/.ssh/test-instance.pem ubuntu@18.170.2.155
