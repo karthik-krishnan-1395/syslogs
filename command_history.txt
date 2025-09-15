@@ -8710,3 +8710,14 @@ cd ..
 git add .
 git commit -m "Creating GitHub Action"
 git push origin karthik
+==== 2025-09-15_08-20-11 ====
+git push origin karthik
+cd s3-action
+code main.tf 
+rm main.tf
+ls
+code main.tf
+cd ..
+git add .
+git commit -m "Creating GitHub Action"
+git push origin karthik
